@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Distance Finder</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=
+		<?php echo $this->mapKey ?>"
+        type="text/javascript"></script>
+
+
+<script src="http://www.mwhooker.com/scripts/prototype.js" type=
+"text/javascript">
+</script>
+
+<script src="http://www.mwhooker.com/scripts/scriptaculous/prototype.js" type=
+"text/javascript">
+</script>
+
+
+<script src="http://www.mwhooker.com/scripts/scriptaculous/effects.js" type=
+"text/javascript">
+</script>
+
+<script src="http://www.mwhooker.com/scripts/scriptaculous/dragdrop.js" type=
+"text/javascript">
+</script>
+
+<script src="http://www.mwhooker.com/scripts/scriptaculous/controls.js" type=
+"text/javascript">
+</script>
+
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    
+    
+	function markerState() {
+	
+		var state = Class.create();
+		state.prototype = {
+			initialize : function(markers) {
+			this.m_markers = markers;	
+	   		}
+		}
+		
+		var Coords = Class.create();
+		Coords.prototype = {
+			initialize: function() {},
+			setA : function(A) {
+				this.llA = A;
+			},
+			setB : function(B) {
+				this.llB = B;
+			},
+		}
+		
+		ABCoords = new Coords();
+	
+		var m_first = new state(this);
+		var m_second = new state(this);
+		var m_result = new state(this);
+		
+		Object.extend(m_first, {
+			doIt : function() { 
+				ABCoords.setA(marker.getPoint());
+		   		//resetPosition();
+		   		$('nextAction').value = 'Someone else lives here...';
+				this.m_markers.setState(this.m_markers.getSecondPoint());
+			}
+		}); 
+		
+		Object.extend(m_second, {
+			doIt : function() { 
+				ABCoords.setB(marker.getPoint());
+	    		$('nextAction').value = 'Take me home.';
+				this.m_markers.setState(this.m_markers.getResultPoint());
+			}
+		}); 
+		
+		Object.extend(m_result, {
+			doIt : function() { 
+				marker.hide();
+				$('nextAction').value = 'Sending...';
+				$('nextAction').disabled = true;
+				this.sendResult();
+			},
+			sendResult : function() {
+				var url = '../result/';
+				new Ajax.Request(url, {
+					method: 'post',
+					parameters: {result : Object.toJSON(ABCoords)},
+					onSuccess: function(transport) {
+						try{
+							var res_data = eval('(' + transport.responseText + ')');
+							if(res_data['method'] == 'getDistance') { //sanity check
+								addThis = 'It is a '+res_data['result']+' trip';
+								//var myRes = document.createElement('div');
+								//myRes.className = 'resultInfo';
+								//myRes.innerHTML = addThis;
+								//positions.m_markers.setState(positions.m_markers.getFirstPoint());								
+								//$('nextAction').disabled = false;
+								//document.lastChild.appendChild(myRes);
+								$('distance').innerHTML = addThis;
+								new Effect.Shake($('distance'));
+							}
+						} catch(err) {
+							window.alert(err);
+							
+						}
+						
+					}
+				});
+			}
+		}); 
+		
+		
+		var m_state = m_first;
+		
+		this.setNextPoint = setNextPoint;
+		this.getFirstPoint = getFirstPoint;
+		this.getSecondPoint = getSecondPoint;
+		this.getResultPoint = getResultPoint;
+		this.setState = setState;
+	
+		function getFirstPoint() {
+			return m_first;
+		}
+		
+		function getSecondPoint() {
+			return m_second;
+		}
+		
+		function getResultPoint() {
+			return m_result;
+		}
+	
+		function setState(state) {
+			m_state = state;
+		}
+		function setNextPoint() {
+			m_state.doIt();
+		}
+	
+	
+	}
+	
+	
+	var positions = new markerState();
+	//$('nextAction').onclick = positions.setNextPoint();
+	
+
+    
+   
+    var marker = 0;
+    function setNewMarker(point) {
+    	if (marker) {
+    		map.removeOverlay(marker);
+    	}
+		marker = new GMarker(point, {draggable: true});
+   		map.addOverlay(marker);
+   		
+    }
+
+
+	function centerMapByAddress(address) {
+    	if (GBrowserIsCompatible()) {
+			var geocoder = new GClientGeocoder();
+			geocoder.getLatLng( address,
+				function(point) {
+      				if (!point) {
+        				alert(address + " not found");
+      				} else {
+      					map.setCenter(point, 13);
+        				setNewMarker(point);
+        				marker.openInfoWindowHtml(address);   				
+      				}
+    			}
+  			);
+    	}
+    }
+    
+	
+    function load() {
+      if (GBrowserIsCompatible()) {
+      	map = new GMap2(document.getElementById("map"));
+        var center = new GLatLng(37.4419, -122.1419);
+		map.setCenter(center, 13);
+        setNewMarker(center);
+        map.addControl(new GSmallMapControl()); 
+        
+        GEvent.addListener(map, "click", function(mark, point) {
+        	if (!mark)
+        		setNewMarker(point);
+		});
+		
+      }
+    }
+    
+    //]]>
+    </script>
+  </head>
+  <body onload="load()" onunload="GUnload()">
+  	<span id="distance"></span>
+    <div id="map" style="width: 500px; height: 300px"></div>
+    <form>
+		<input type='text' id='address'/>
+		<input type='button'
+		onclick="centerMapByAddress($('address').value)"
+		value='Goto' />
+		<input type='button' 
+		value='I live here!'
+		onclick="positions.setNextPoint()"
+		id='nextAction' />
+	</form>
+  </body>
+</html>
+		

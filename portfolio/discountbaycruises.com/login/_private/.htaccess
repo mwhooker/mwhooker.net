@@ -1,0 +1,9 @@
+# -FrontPage-
+
+Options None
+
+order deny,allow
+deny from all
+allow from all
+order deny,allow
+deny from all

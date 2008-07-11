@@ -1,0 +1,151 @@
+<html>
+<?php
+  	include_once "login/functions.php";
+?>
+
+<head>
+<meta name="keywords" content="alcatraz tour,san francisco,san francisco bay,san francisco bay bridge,san francisco bay tour,bay tour,san francisco bay cruise,tickets,cruise,discountbaycruises.com,Discount Bay Cruise,San Francisco Bay Cruise,Alcatraz,Golden Gate Bridge,Cheap Bay Tour Tickets,Bay Tour">
+<meta name="author" content="Matthew Hooker">
+<meta name="content-language" content="English">
+<meta name="revisit-after" content="1 day">
+<!---<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">-->
+<meta name="description" content="Offering some of the Bay Area's cheapest prices for Bay Cruises. Enjoy sites like Alcatraz, the Golden Gate Bridge, and more.">
+<title>DiscountBayCruises.com - Your source for cheap San Francisco Bay Cruise tickets!</title>
+<style>
+
+.bot{
+	color: FFCC00;
+	font-size: 11px;
+	font-family: tahoma,verdana,arial;
+}
+.bot:hover{color: red;}
+
+TD{
+font-size: 11px;
+FONT-FAMILY: tahoma,verdana,arial;
+color: BDBDBD;
+}
+</style>
+<script language="JavaScript1.2" src="mm_functions.js"></script>
+</head>
+
+<body LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH="0" MARGINHEIGHT="0" onLoad="MM_preloadImages('images/but1.gif','images/but2.gif','images/but3.gif','images/but4.gif','images/but5.gif','images/but6.gif','images/but1_2.gif','images/but2_2.gif','images/but3_2.gif','images/but4_2.gif')">
+
+<script language="JavaScript1.2">mmLoadMenus();</script>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="765" bgcolor="#FFFFFF">
+  <tr>
+    <td colspan="3" height="443">
+    <img border="0" src="images/master-MP_01.gif" width="611" height="24"><img border="0" src="images/master-MP_02.gif" width="165" height="24"><br>
+			<IMG SRC="images/master-MP_05.gif" ALT="" width="55" height="24"><a href="services.php"><img border="0" src="images/master-MP_06.gif" width="64" height="24"></a><a href="links.htm"><img border="0" src="images/master-MP_07.gif" width="46" height="24"></a><a href="https://pro12.abac.com/sfdbc/purchase.php"><img border="0" src="images/master-MP_08.gif" width="118" height="24"></a><a href="vtour.htm"><img border="0" src="images/master-MP_09.gif" width="84" height="24"></a><a href="mailto:webmaster@discountbaycruises.com"><img border="0" src="images/master-MP_10.gif" width="74" height="24"></a><img border="0" src="images/master-MP_11.gif" width="170" height="24"><img border="0" src="images/t5.gif" width="17" height="24"><img src="images/but1_2.gif" name="Image13" border="0" width="21" height="24"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_showMenu(window.mm_menu_0201175758_0,650,45,null,'links');MM_swapImage('Image14','','images/but2_2.gif',1)"><img src="images/but2.gif" name="Image14" border="0" width="21" height="24"></a><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','images/but3_2.gif',1)" href="https://pro12.abac.com/sfdbc/purchase.php"><img src="images/but3.gif" name="Image15" border="0" width="19" height="24"></a><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','images/but4_2.gif',1)" href="mailto:webmaster@discountbaycruises.com"><img src="images/but4.gif" name="Image16" border="0" width="21" height="24"></a><img border="0" src="images/t6.gif" width="66" height="24"><br>
+    <img border="0" src="images/master-MP_19.gif" width="287" height="139"><IMG SRC="images/master-MP_21.jpg" ALT="" width="122" height="139"><IMG SRC="images/master-MP_22.gif" ALT="" width="68" height="139"><IMG SRC="images/master-MP_23.jpg" ALT="" width="122" height="139"><img border="0" src="images/top5.jpg" width="177" height="139"><br>
+    <img border="0" src="images/master-MP_24.gif" width="287" height="39"><IMG SRC="images/master-MP_26.jpg" ALT="" width="90" height="39"><IMG SRC="images/master-MP_27.jpg" ALT="" width="122" height="39"><IMG SRC="images/master-MP_28.jpg" ALT="" width="100" height="39"><img border="0" src="images/top10.gif" width="177" height="39"><table border="0" width="776" height="217" cellspacing="0" cellpadding="0" background="images/bg.jpg">
+
+        <tr>
+          <td valign="top" style="padding-left: 50; padding-right: 16">
+          <img border="0" src="images/k1.gif" width="16" height="10"><font color="#57ABD1"><span style="font-size: 12px"><b>15</b></span></font><b><font color="#57ABD1" style="font-size: 12px">
+          <A NAME="news">August 2004</A></font></b>
+    <br>DiscountBayCruises.com is happy to announce that we have lowered our
+          ticket prices! We now offer some of the lowest prices for Bay Cruise tickets.<br>
+          <a href="services.php">
+          <img border="0" src="images/more1.gif" vspace="8" width="115" height="34"></a><img border="0" src="images/pusto.gif" width="196" height="1" align="middle"><br>
+          <img border="0" src="images/k2.gif" width="16" height="10"><b><font color="#57ABD1" style="font-size: 12px">7
+          August 2004</font></b>
+    <br>DiscountBayCruises.com goes live! The bay’s first automated internet
+          based exclusive bay cruise ticketing system takes
+          off today.<br>
+          <a href="services.php">
+          <img border="0" src="images/more3.gif" vspace="8" width="115" height="37"></a></td>
+          <td valign="top">
+          	<IMG SRC="images/master-MP_33.jpg" ALT="" width="122" height="76"></td>
+          <td valign="top" style="padding-left: 13; padding-right: 44">
+          <p align="justify">
+          <img border="0" src="images/master-MP_34.gif" width="220" height="30"><br>
+          <font face="Tahoma">Set sail on an hour long tour on the magnificent
+          San Francisco Bay. You’ll be treated to views of the Golden Gate
+          Bridge, Alcatraz, and other wonderful sights around the bay. Our tours
+          are accompanied by award winning narratives in six different languages
+          which will guide you through the sights and history of our City.</font><br>
+          <a href="vtour.htm">
+          <img border="0" src="images/more2.gif" width="115" height="43"></a></td>
+        </tr>
+      </table></td>
+    <td width="100%" background="images/fon3.gif" height="443"></td>
+  </tr>
+  <tr>
+    <td background="images/fon1.gif" valign="top" height="261">
+    <img border="0" src="images/master-MP_51.gif" width="399" height="39"><div style="padding-left: 50; padding-right: 20; width:321; height:201">
+      Below you can see the tour route through the bay.<br>
+      <table border="0" width="89" height="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="286" valign="top">
+            <img border="0" src="images/baycruisemap2.gif" width="300" height="209" ></td>
+          </tr>
+        </table></div></td>
+    <td valign="top" bgcolor="#0A292D" height="261">
+    <img border="0" src="images/line.gif" width="1" height="39"></td>
+    <td background="images/fon1.gif" valign="top" height="261">
+    <img border="0" src="images/master-MP_56.gif" width="366" height="39"><div style="padding-left: 30">Because we are an internet-based company, we operate with a very
+              low overhead, we are able to pass our saving on to you.<BR><BR>
+              That’s why we can offer tickets at such a discounted price:
+              <table border="1" width="306" bordercolor="#144E56" height="152" cellspacing="0" cellpadding="0" bgcolor="#103E45">
+        <tr>
+          <td bgcolor="#FFCC00" align="center"><font color="#000000"><b>S</b></font><b><font color="#000000">ervices</font></b></td>
+          <td bgcolor="#FFCC00" align="center"><font color="#000000"><b>Fares</b></font></td>
+        </tr>
+        <tr>
+          <td style="padding-left: 10; padding-right: 10"><font color="#FFFFFF">
+          Adult</font></td>
+          <td style="padding-left: 10; padding-right: 10">
+          <p align="center"><font color="#FFFFFF"><strike><font face="Tahoma">
+          <?php printf ("$%d.00",retrieve_last_fare("bay", "adult","old"));?></font></strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <?php printf ("$%d.00",retrieve_last_fare("bay", "adult","update"));?></font></td>
+        </tr>
+        <tr>
+          <td style="padding-left: 10; padding-right: 10"><font color="#FFFFFF">
+          Senior (60+)</font></td>
+          <td style="padding-left: 10; padding-right: 10">
+          <p align="center"><font color="#FFFFFF"><strike><font face="Tahoma">
+          <?php printf ("$%d.00",retrieve_last_fare("bay", "senior","old"));?></font></strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <?php printf ("$%d.00",retrieve_last_fare("bay", "senior","update"));?></font></td>
+        </tr>
+        <tr>
+          <td style="padding-left: 10; padding-right: 10"><font color="#FFFFFF">
+          Teen (12-18)</font></td>
+          <td style="padding-left: 10; padding-right: 10">
+          <p align="center"><font color="#FFFFFF"><strike><font face="Tahoma">
+          <?php printf ("$%d.00",retrieve_last_fare("bay", "teen","old"));?></font></strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <?php printf ("$%d.00",retrieve_last_fare("bay", "teen","update"));?></font></td>
+        </tr>
+        <tr>
+          <td style="padding-left: 10; padding-right: 10"><font color="#FFFFFF">
+          Child (5-11)</font></td>
+          <td style="padding-left: 10; padding-right: 10">
+          <p align="center"><font color="#FFFFFF"><strike><font face="Tahoma">
+          <?php printf ("$%d.00",retrieve_last_fare("bay", "child","old"));?></font></strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <?php printf ("$%d.00",retrieve_last_fare("bay", "child","update"));?></font></td>
+        </tr>
+      </table></div></td>
+    <td width="100%" background="images/fon1.gif" height="261"></td>
+  </tr>
+  <tr>
+    <td background="images/fon2.gif" height="24">&nbsp;</td>
+    <td background="images/fon2.gif" height="24"></td>
+    <td background="images/fon2.gif" height="24"></td>
+    <td width="100%" background="images/fon2.gif" height="24"></td>
+  </tr>
+  <tr>
+    <td style="padding-left: 0" bgcolor="#103E45" height="37"><font color="#FFFFFF">
+    2004, 2005 (c) Copyright DiscountBayCruises.com. All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></td>
+    <td style="padding-right: 0" bgcolor="#103E45" height="37" colspan="2" align="right">
+    <p align="center"><font color="#FFFFFF">&nbsp;<a class="bot" href="services.php">services</a>&nbsp; |&nbsp;
+    <a class="bot" href="links.htm">links</a>&nbsp;
+      |&nbsp;<a class="bot" href="https://pro12.abac.com/sfdbc/purchase.php">purchase voucher</a>&nbsp; |&nbsp;
+    <a class="bot" href="vtour.htm">virtual tour</a>&nbsp;
+      |&nbsp; <a href="mailto:webmaster@discountbaycruises.com" class="bot">contact us</a></font></td>
+    <td width="100%" bgcolor="#103E45" height="37"></td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+
+#name {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.header {
+	text-decoration: underline;
+	margin-bottom: 10px;
+	
+}
+
+.more {
+}
+
+img {
+	border:none;
+}
+
+
+.saveas {
+	width: 370px;
+}
+
+.saveas_top {
+	
+}
+
+.saveas_bottom {
+	background: yellow;
+}
+
+.saveas_title {
+	background: red;
+	float: left;
+}
+
+.saveas_x {
+	background: brown;
+	float: right;
+}
+
+.saveas_links {
+	
+	margin: 0px;
+}
+
+.roledesc {
+	display:none;
+}
+
+.roledescdisp {
+	display:block;
+}
+
+p {
+	margin-top:.80em;
+	margin-bottom:.80em;
+}
+
+.jobdetails {
+	margin-left: 40px;
+}
+	
+.when {float: left;}
+
+.company {
+	text-decoration: underline;
+	margin-bottom:5px;
+}
+
+.location { float: right;}
+
+.jobitem {
+	width: 550px;
+}
+
+.jobtitle {
+	font-size:10py;
+}
+
+.item {
+	margin: 0px 20px 20px 20px;
+	
+	
+}
+
+
+.section {
+	width: 600px;
+}

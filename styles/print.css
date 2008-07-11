@@ -1,0 +1,33 @@
+body {
+	font-family: "Times New Roman", serif;
+	font-size: .95em;
+}
+
+.noprint {
+	display:none;
+}
+
+.roledesc {
+	display:block;
+}
+
+
+a {
+	text-decoration:none;
+	font-size: 1em;
+}
+
+a:visited {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+
+a:link {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+
+a:active {
+	
+	text-decoration:none;
+}

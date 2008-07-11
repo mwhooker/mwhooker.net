@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org" />
+<meta http-equiv="Content-Type" content=
+"text/html; charset=utf-8" />
+<title>Portfolio</title>
+<link rel="stylesheet" type="text/css" href="./styles/global.css"
+media="all" />
+<link rel="stylesheet" type="text/css" href=
+"./styles/portfolio.css" media="all" />
+<link rel="stylesheet" type="text/css" href="./styles/print.css"
+media="print" />
+</head>
+<body>
+<div class="year">2007</div>
+
+<ul class="programlist">
+<li class="program"><span class="title">Distance</span> <span
+class="lang">(PHP)</span> - <span class="small">
+<a href="./portfolio/Distance/htdocs/index.php">view</a> |
+<a href="./portfolio/Distance.tar">source.</a></span></li>
+
+<li style="list-style: none">
+<p class="programdesc">A Google maps mashup to calculate distances
+between two points. My goal was to use the highest level tools
+available to me. I use the <i>Zend Framework</i> to manage the
+backend, letting it take care routing and distance calculations.
+For the UI mechanics I use Javascript, Prototype, and JSON.</p>
+</li>
+
+<li class="program"><span class="title">CalcCalc</span> <span
+class="lang">(C++)</span> - <span class="small"><a href=
+"./portfolio/calc.tar.gz">source.</a></span></li>
+
+<li style="list-style: none">
+<p class="programdesc">This was my entry for the <a href=
+"http://omg.worsethanfailure.com">OMGWTF</a> programming
+competition. The object was to complete the simplest task (a 4
+function calculator) in the most obtuse way possible. I use
+<code>SendInput</code> to mimic the <i>CalcCalc</i> user's input on
+the Windows Calculator. I then copy the answer, 
+using <code>GetMessage</code>, to the <i>CalcCalc</i> result field.</p>
+</li>
+</ul>
+
+<div class="year">2006</div>
+
+<ul class="programlist">
+<li class="program"><span class="title">libgerpok</span> <span
+class="lang">(C++)</span> - <span class="small">Source available
+upon request.</span></li>
+
+<li style="list-style: none">
+<p class="programdesc"><i>Libgerpok</i> interfaces with <a href=
+"www.gerpok.com">Gerpok.com</a> using a custom HTTP based protocol.
+The library manages user authentication, and communicating song
+start and finish events, which must meet criteria such as a minimum
+length of play-through, and well-formed and valid meta-data. It is
+also fault tolerant and able to operate off line. I achieved this
+by caching server communication and serializing song plays while
+off-line. The library utilizes the Loki, Boost, and cURL C++
+libraries.</p>
+</li>
+
+<li class="program"><span class="title">gpk2-winamp</span> <span
+class="lang">(C++)</span> - <span class="small"><a href=
+"./portfolio/gpk2-winamp.tar.gz">source.</a></span></li>
+
+<li style="list-style: none">
+<p class="programdesc">The Winamp client of <i>libgerpok</i>. I
+implemented a state machine to make sure only valid actions are
+taken by the user.</p>
+</li>
+
+<li class="program"><span class="title">VocabBuilder</span> <span
+class="lang">(Java)</span> - <span class="small"><a href=
+"./portfolio/Jvcbuilder.tar.gz">source.</a></span></li>
+
+<li style="list-style: none">
+<p class="programdesc">I built this because I wanted a tool to
+build my vocabulary. Using Java, I parse a list of words, and
+output a formatted definition file. I utilize the <a href=
+"http://wordnet.princeton.edu/">Princeton Wordnet</a> library as
+the program's dictionary.</p>
+</li>
+</ul>
+
+<div class="year">2005</div>
+
+<ul class="programlist">
+<li class="program"><span class="title">rQuip</span> <span class=
+"lang">(Ruby)</span> - <span class="small"><a href=
+"./portfolio/quip.tar.gz">source.</a></span></li>
+
+<li style="list-style: none">
+<p class="programdesc">rQuip is a utility for solving the
+"crypto-quip" in the Sunday newspaper. It tries to decrypt a
+monoalphabetic substitution encrypted string by working off of
+known letter frequencies. It replaces the cyphertext alphabet with
+what it thinks it should be based off of statistical frequency. In
+order to test it I wrote a monoalphabetic character substitution
+encryption class called Quip.</p>
+</li>
+
+<li class="program"><span class="title">rSort</span> <span class=
+"lang">(Ruby)</span> - <span class="small"><a href=
+"./portfolio/bSort.tar.gz">source.</a></span></li>
+
+<li style="list-style: none">
+<p class="programdesc">rSort is a radix sort implementation using
+Ruby. While contemplating binary numbers, it occurred to me that I
+could sort them by recursively comparing their bits from highest to
+lowest order. As I later learned, this principal is called a most
+significant bit radix sort.</p>
+</li>
+</ul>
+
+<div class="year">2004</div>
+
+<ul class="programlist">
+<li class="program"><span class=
+"title">DiscountBayCruises.com</span> <span class="lang">(PHP,
+HTML)</span> - <span class="small"><a href=
+"./portfolio/discountbaycruises.com/index.php">view</a> | <a href=
+"./portfolio/discountbaycruises.com.tar.gz">source.</a></span></li>
+
+<li style="list-style: none">
+<p class="programdesc">This was a web site I built for Red and
+White Cruises. We sold ticket vouchers for below retail. Due to the
+nature of the business, prices were constantly in flux, meaning the
+ability to easily change prices was paramount. Here I was exposed
+to remote hosting, PHP, mySQL, and Photoshop.</p>
+</li>
+
+<li class="program"><span class="title">MQ2DoCrack</span> <span
+class="lang">(C++)</span> - <span class="small"><a href=
+"http://forever-hacking.com/viewtopic.php?p=7765">source.</a></span></li>
+
+<li style="list-style: none">
+<p class="programdesc">Works as a memory poker for a video game,
+reading off a list of memory addresses and pre/post poke bytes.</p>
+</li>
+</ul>
+
+<p class="footer">All programs designed and implemented by <a href=
+"mailto:mwhooker@gmail.com">Matthew Hooker</a> unless otherwise
+noted.</p>
+</body>
+</html>
+
