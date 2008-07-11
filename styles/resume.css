@@ -9,25 +9,40 @@ h1 {
 }
 
 h2 {
-	text-decoration: underline;
+	
 	margin-bottom: 0.5em;
 	padding: 0px;
 	font-size: 1.1em;
+	width: 940px;
+	border-top:medium outset #000000;
+	border-bottom:thin solid #C0C0C0;
 }
 
 h3 {
-	margin: 0px 0px 0.5em 0px;
+	margin: 0px 0px 0px 0px;
+	
 }
 
 h4 {
-	font-size: 1.1em;
+	font-style: oblique; 
+	font-size: 1.2em;
 	font-weight: normal;
-	float: left;
-	width:300px;
-	margin: 0 0 0 0;
+	
 }
 
-.jobdetails span {
+.when {
+	color: #838B8B;
+	float:right;
+}
+
+.location {
+	color: #838B8B;
+	float:right;
+	
+}
+
+.jobdetails {
+	margin: 0px 0px 0px 0px;
 	
 }
 
@@ -35,20 +50,12 @@ img {
 	border: none;
 }
 
-.roledesc {
+.role {
 	
 }
 
 p {
-	margin-top: .80em;
-}
-.when {
-	float:left;
-}
-
-.location {
-	float:right;
-	
+	margin-top: 0em;
 }
 
 .jobitem {
@@ -56,10 +63,8 @@ p {
 }
 
 .item {
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 0px 0px;
 }
-
-
 
 
 ul {
