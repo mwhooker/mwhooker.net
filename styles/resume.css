@@ -1,7 +1,11 @@
 
 #name {
-	font-size: 25px;
+	font-size: 2em;
 	font-weight: bold;
+}
+
+#contact {
+	font-size: .8em;
 }
 
 .header {

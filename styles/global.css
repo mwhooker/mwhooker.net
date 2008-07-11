@@ -9,14 +9,16 @@
 
 
 #title {
-	font-family: "Times New Roman", serif;
+	/*font-family: Georgia, "Times New Roman", Times, serif;*/
 	text-align: center;
-	font-size: 10px;
+	width:18em;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 body {
-	font-family: 'Lucida Grande',Arial,sans-serif;
-	font-size: .95em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.1em;
 }
 
 
