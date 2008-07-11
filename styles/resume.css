@@ -16,6 +16,7 @@ h2 {
 	width: 940px;
 	border-top:medium outset #000000;
 	border-bottom:thin solid #C0C0C0;
+	font-variant: small-caps;
 }
 
 h3 {
@@ -24,6 +25,7 @@ h3 {
 }
 
 h4 {
+	
 	font-style: oblique; 
 	font-size: 1.2em;
 	font-weight: normal;
