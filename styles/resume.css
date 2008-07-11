@@ -1,96 +1,71 @@
-
-#name {
-	font-size: 2em;
-	font-weight: bold;
-}
-
 #contact {
 	font-size: .8em;
 }
 
-.header {
-	text-decoration: underline;
-	margin-bottom: 10px;
-	
-}
-
-.more {
-	margin-left:10px;
-}
-
-img {
-	border:none;
-}
-
-
-.saveas {
-	width: 370px;
-}
-
-.saveas_top {
-	
-}
-
-.saveas_bottom {
-	background: yellow;
-}
-
-.saveas_title {
-	background: red;
-	float: left;
-}
-
-.saveas_x {
-	background: brown;
-	float: right;
-}
-
-.saveas_links {
-	
+h1 {
+	font-size: 2em;
+	font-weight: bold;
 	margin: 0px;
 }
 
-.roledesc {
-	display:none;
+h2 {
+	text-decoration: underline;
+	margin-bottom: 0.5em;
+	padding: 0px;
+	font-size: 1.1em;
 }
 
-.roledescdisp {
-	display:block;
+h3 {
+	margin: 0px 0px 0.5em 0px;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-weight: normal;
+	float: left;
+	width:300px;
+	margin: 0 0 0 0;
+}
+
+.jobdetails span {
+	
+}
+
+img {
+	border: none;
+}
+
+.roledesc {
+	
 }
 
 p {
-	margin-top:.80em;
-	margin-bottom:.80em;
+	margin-top: .80em;
+}
+.when {
+	float:left;
 }
 
-.jobdetails {
-	margin-left: 40px;
-}
+.location {
+	float:right;
 	
-.when {float: left;}
-
-.company {
-	text-decoration: underline;
-	margin-bottom:5px;
 }
-
-.location { float: right;}
 
 .jobitem {
-	width: 750px;
-}
-
-.jobtitle {
-	font-size:10py;
+	width: 940px;
 }
 
 .item {
-	margin: 0px 20px 20px 20px;
-	
-	
+	margin: 0px 0px 20px 0px;
 }
 
 
-.section {
-	width: 800px;
+
+
+ul {
+ 
+ padding: 0;
 }
+ul li {
+ 
+} 
