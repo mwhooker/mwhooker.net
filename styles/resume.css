@@ -12,7 +12,7 @@ h2 {
 	
 	margin-bottom: 0.5em;
 	padding: 0px;
-	font-size: 1.1em;
+	
 	width: 940px;
 	border-top:medium outset #000000;
 	border-bottom:thin solid #C0C0C0;
@@ -20,14 +20,14 @@ h2 {
 }
 
 h3 {
-	margin: 0px 0px 0px 0px;
+	margin: 0px 0px 0.25em 0px;
 	
 }
 
 h4 {
-	
+	margin: 0px 0px 0px 0px;
 	font-style: oblique; 
-	font-size: 1.2em;
+	
 	font-weight: normal;
 	
 }
@@ -61,7 +61,7 @@ p {
 }
 
 .jobitem {
-	width: 940px;
+	
 }
 
 .item {
