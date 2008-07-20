@@ -1,4 +1,3 @@
-
 h1 {
 	font-size: 2em;
 	font-weight: bold;
@@ -46,10 +45,10 @@ span.title_info {
 	margin: 0 0.5em 0 0.5em;
 }
 
-ul.item, ul.jobitem {
+div.item ul, div.jobitem ul {
 	padding: 0;
 }
-s
+
 .item, .jobitem {
 	margin: 0px 0px 0px 0px;
 }
