@@ -1,5 +1,5 @@
 h1 {
-	font-size: 2em;
+	font-size: 4em;
 	font-weight: bold;
 	margin: 0px;
 }
@@ -8,8 +8,6 @@ h2 {
 	
 	margin-bottom: 0.5em;
 	padding: 0px;
-	
-	width: 940px;
 	border-top:medium outset #000000;
 	border-bottom:thin solid #C0C0C0;
 	font-variant: small-caps;

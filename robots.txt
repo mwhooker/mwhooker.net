@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: http://mwhooker.com/sitemap.xml
+
+User-agent: *
+Disallow: /portfolio/
+Disallow: /portfolio.html
