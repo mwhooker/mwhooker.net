@@ -1,7 +1,19 @@
-User-agent: *
-Allow: /
-Sitemap: http://mwhooker.com/sitemap.xml
+User-agent: Googlebot-Mobile
+Allow: /resume.html
+User-agent: Googlebot
+Allow: /resume.html
+User-agent: MSNBot
+Allow: /resume.html 
+User-agent: Slurp
+Allow: /resume.html
+User-agent: Teoma
+Allow: /resume.html
+User-agent: ia_archiver
+Allow: /resume.html
+
 
 User-agent: *
-Disallow: /portfolio/
-Disallow: /portfolio.html
+Disallow: /
+Crawl-delay: 10
+Sitemap: http://mwhooker.com/sitemap.xml
+No-Email-Collection: http://www.unspam.com/noemailcollection
