@@ -1,7 +1,6 @@
 #title {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	text-align: center;
-	font-size: 12px;
 }
 
 #title h1 {
@@ -15,7 +14,7 @@ body { /*font-family: Georgia, "Times New Roman", Times, serif;*/
 
 a {
 	text-decoration: none;
-	font-size: 1em;
+	font-size: .9em;
 }
 
 a:visited {

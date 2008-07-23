@@ -1,21 +1,8 @@
-#title h1 {
-	font-size: 2em;
-	margin:0px;
-	padding:0px;	
-}
-
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	margin-left:1.2em;
 }
 
-.item h2 {
-	font-size:1.2em;
-}
-
-.item h3 {
-	font-size:1em;
-}
 
 .fullpage {
 	background-color:#000000;

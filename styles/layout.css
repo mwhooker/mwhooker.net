@@ -19,13 +19,6 @@ img {
     width:100%;
 }
 
-#header p,
-#header h1,
-#header h2 {
-    padding:.4em 15px 0 15px;
-    margin:0;
-}
-
 /* column container */
 .colmask {
     position:relative;		/* This fixes the IE7 overflow hidden bug */
@@ -42,10 +35,7 @@ img {
 	padding:0 0 1em 0;
 	overflow:hidden;
 }
-/* Full page settings */
-.fullpage {
-	background:#fff;		/* page background colour */
-}
+
 .fullpage .col1 {
 	width:94%;				/* page width minus left and right padding */
 	/*left:2%;				/* page left padding */
