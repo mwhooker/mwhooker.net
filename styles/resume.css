@@ -1,4 +1,10 @@
 
+
+h1 {
+	margin: 0px;
+	font-size:1.8em;
+}
+
 h2 {
 	
 	margin-bottom: 0.5em;
@@ -22,7 +28,7 @@ h4 {
 }
 
 p {
-	margin-top: 0em;
+	margin: 0em;
 }
 
 img {
@@ -39,7 +45,9 @@ span.title_info {
 }
 
 div.item ul, div.jobitem ul {
-	padding: 0;
+	margin: 0;
+	
+	padding: 2; 
 }
 
 .item, .jobitem {
@@ -47,7 +55,6 @@ div.item ul, div.jobitem ul {
 }
 
 .job_meta {
-	color: #838B8B;
 	float:right;
 	font-size: .8em;
 }

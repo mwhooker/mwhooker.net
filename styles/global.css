@@ -2,27 +2,26 @@
 #title {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	text-align: center;
-	
+	font-size: 1em;
 }
 
 body {
 	/*font-family: Georgia, "Times New Roman", Times, serif;*/
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	
+	font-size: .6em;
 }
 
 a {
 	text-decoration:none;
-	font-size: .95em;
+	font-size: 1em;
 }
 
 a:visited {
-	color: #C0C0C0;
+
 	text-decoration:none;
 }
 
 a:link {
-	color: #708090;
 	text-decoration:none;
 }
 
@@ -32,7 +31,7 @@ a:active {
 }
 
 a:hover {
-	color: #4682B4;
+
 	text-decoration:none;
 }
 

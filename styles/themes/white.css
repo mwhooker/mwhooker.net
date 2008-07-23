@@ -1,0 +1,16 @@
+body {
+	background-color: #000000;
+}
+a:visited {
+	color: #C0C0C0;
+}
+
+a:link {
+	color: #708090;
+}
+a:hover {
+	color: #4682B4;
+}
+.job_meta {
+	color: #838B8B;
+}
