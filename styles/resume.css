@@ -1,30 +1,22 @@
-
-
-h1 {
-	margin: 0px;
-	font-size:1.8em;
-}
-
-h2 {
-	
+.item h2 {
 	margin-bottom: 0.5em;
 	padding: 0px;
-	border-top:medium outset #000000;
-	border-bottom:thin solid #C0C0C0;
+	order-top: medium outset #000000;
+	border-bottom: thin solid #C0C0C0;
 	font-variant: small-caps;
+	border-top: medium outset #000000;
+	font-size:1.65em;
 }
 
-h3 {
-	margin: 0px 0px 0.25em 0px;
-	
+.item h3 {
+	margin: 0.25em 0px 0.25em 0px;
+	font-size:1.365em;
 }
 
-h4 {
-	margin: 0px 0px 0px 0px;
-	font-style: oblique; 
-	
+.jobitem h4 {
+	margin: 1em 0px .5em 0px;
+	font-style: oblique;
 	font-weight: normal;
-	
 }
 
 p {
@@ -39,28 +31,25 @@ img {
 	font-size: .8em;
 }
 
-
 span.title_info {
 	margin: 0 0.5em 0 0.5em;
 }
 
-div.item ul, div.jobitem ul {
-	margin: 0;
-	
-	padding: 2; 
+.item ul,.jobitem ul {
+	margin: 0px;
+	padding: 0px;
 }
 
-.item, .jobitem {
+.item,.jobitem {
 	margin: 0px 0px 0px 0px;
 }
 
 .job_meta {
-	float:right;
+	float: right;
 	font-size: .8em;
 }
 
 .jobdetails {
-	
 	
 }
 
@@ -71,8 +60,3 @@ div.item ul, div.jobitem ul {
 .jobitem {
 	
 }
-
-.objective {
-	
-}
-

@@ -1,8 +1,3 @@
-body {
-	background-color:#FEFEF2;
-}
-
-
 a:visited {
 	color: #9B86B2;
 }
@@ -15,4 +10,11 @@ a:hover {
 }
 .job_meta {
 	color: #7F7E79;
+}
+
+.fullpage {
+	background-color:#FEFEF2;
+}
+#header {
+	background-color:#FEFEF2;
 }

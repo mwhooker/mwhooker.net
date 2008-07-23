@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
 	<meta http-equiv="imagetoolbar" content="false" />
 	<meta http-equiv="Content-Language" content="en" />
 	<meta name="ROBOTS" content="NOFOLLOW" />
@@ -11,245 +11,200 @@
 	<meta name="description" content="Matthew Hooker's R&eacute;sum&eacute;, 2008" />
 	<meta name="keywords" content="Matthew Hooker, resume, engineer, web programming, web programmer, 
 		web, programming, contract, contact" />
-	
-	
 
 <title>R&eacute;sum&eacute; – Matthew Hooker</title>
 
-<script src="scripts/resumejs.js" type="text/javascript">
+<script src="scripts/mootools-1.2-dom.js" type="text/javascript">
 </script>
-<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+<script src="scripts/mootools-1.2-asset.js" type="text/javascript">
+</script>
 
-<link rel="stylesheet" type="text/css" href="/styles/tripoli/tripoli.css" /> 
-<!--[if IE]><link rel="stylesheet" type="text/css" href="./styles/tripoli/tripoli.ie.css"><![endif]--> 
+
+<script type="text/javascript">
+window.addEvent('domready', function() {
+	var skypeJS = Asset.javascript(
+		'http://download.skype.com/share/skypebuttons/js/skypeCheck.js');
+	});
+</script> 
+
+<link rel="stylesheet" type="text/css" href="/styles/layout.css" 
+	 media="screen" />
+<link rel="stylesheet" type="text/css" href="/styles/tripoli/tripoli.css" 
+	media="all" /> 
+<!--[if IE]><link rel="stylesheet" type="text/css" href="./styles/tripoli/tripoli.ie.css" media="all" /><![endif]--> 
 <link rel="stylesheet" type="text/css" href="/styles/resume.css"
-media="all" />
+	media="all" />
 <link rel="stylesheet" type="text/css" href="/styles/themes/eggshell.css"
-media="all" />
+	media="all" />
 <!-- <link rel="stylesheet" type="text/css" href="/styles/themes/white.css"
 media="all" /> -->
 <link rel="stylesheet" type="text/css" href="/styles/print.css"
-media="print" />
-</head>
-<body>
-<div class="content" style="width:940px;margin-left:auto;margin-right:auto;font-size:1.4em;">
- 
-<div id="title">
-<h1 style="font-size:2em;">Matthew W. Hooker</h1>
+	media="print" />
 
-<span id="contact" class="alt" style="font-size:1em;">19 Clementina St., Ste. 301,
-San Francisco, CA 94105<br />
 
-<span class="title_info">C. <a href="skype:+14157949565?call" onclick="return skypeCheck();">
-(415) 794.9565</a><img class="noprint" alt="Call me with Skype" src="img/SkypeBlue_16x16.png" /></span>
-<span class="title_info">F. (443) 308.2416</span>a
-<span class="title_info">E. <a href="mailto:mwhooker@gmail.com">mwhooker@gmail.com</a></span>
-</span>
-
-<br />
+</head><body>
+<div class="content">
+<div id="header">
+	<div id="title">
+	<h1>Matthew W. Hooker</h1>
+	
+	<span id="contact" class="alt">19 Clementina St., Ste. 301,
+	San Francisco, CA 94105<br />
+	
+	<span class="title_info">C. <a href="skype:+14157949565?call" onclick="return skypeCheck();">
+	(415) 794.9565</a><img class="noprint" alt="Call me with Skype" src="img/SkypeBlue_16x16.png" /></span>
+	<span class="title_info">F. (443) 308.2416</span>a
+	<span class="title_info">E. <a href="mailto:mwhooker@gmail.com">mwhooker@gmail.com</a></span>
+	</span>
+	
+	<br />
+	</div>
 </div>
-
-<div class="objective">
-<h2>Objective</h2>
-<div class="item">
-<p>To find elegant solutions to complex problems.</p>
-</div></div>
-
-<div class="r_skills">
-<h2>Relevant Skills</h2>
-<div class="item">
-<ul>
-<li>1 year of professional, and 7 years of amateur level programming experience.</li>
-<li>3 years of Linux user experience. Limited familiarity with server administration.</li>
-<li>Web Development experience: PHP, Ruby, HTML, CSS, and SQL.</li>
-<li>Tool experience: Eclipse, MS Visual Studio, SSH, SVN, git,
-Trac, phpdoc, and phing</li>
-
-<li>Library experience: Zend Framework (PHP), curl, Boost (C++), Loki (C++), 
-Script.aculo.us (Javascript), Mootools (Javascript)</li>
-</ul>
+<div class="colmask fullpage">
+	<div class="col1">
+			
+		<div class="item">
+		<h2>Objective</h2>
+		<p>To find elegant solutions to complex problems.</p>
+		</div>
+		
+		<div class="item">
+		<h2>Relevant Skills</h2>
+		<ul>
+		<li>1 year of professional, and 7 years of amateur level programming experience.</li>
+		<li>3 years of Linux user experience. Limited familiarity with server administration.</li>
+		<li>Web Development experience: PHP, Ruby, HTML, CSS, and SQL.</li>
+		<li>Tool experience: Eclipse, MS Visual Studio, SSH, SVN, git,
+		Trac, phpdoc, and phing</li>
+		
+		<li>Library experience: Zend Framework (PHP), curl, Boost (C++), Loki (C++), 
+		Script.aculo.us (Javascript), Mootools (Javascript)</li>
+		</ul>
+		</div>
+		
+		<div class="item">
+			<h2>Work Experience</h2>
+			
+			<div class="jobitem">
+			<a name="da"></a>
+			
+			<div class="job_meta">San Francisco, CA</div>
+			<h3>SeenON.com, Delivery Agent, Inc.</h3>
+			
+			<div class="roles">
+			<div class="jobdetails">
+				<span class=" job_meta">October 2007–Present</span> 
+				<h4>Junior Engineer</h4>
+			</div>
+			<div class="roledesc " id="roledesc-da">
+			<p>
+			As the sole engineer for SeenON.com, a content-oriented web-site with 3.5 million page-views a month, 
+			I was responsible for everything from requirements gathering to release management.
+			</p>
+			<!-- <li>I designed a robust and flexible architecture for 
+			modules based off of requirements from our marketing team.</li> -->
+			<ul>
+			<li>Delivered a flexible product recommendation engine, which allows the production staff to 
+			decide which products are displayed based off of arbitrary criteria.</li>
+			<li>Deployed Multi-User Wordpress to be used as the company's blogging platform. Successfully 
+			launched the <a href="http://projectrunway.blog.seenon.com">Project Runway Blog</a>, 
+			and merged the existing SeenON! blog from Movable Type.</li>
+			<li>Overhauled our release process so reduce our chance of promoting buggy code, and to mitigate risk by 
+			ensuring we knew what version of the site was live at any given date.</li>
+			<li>Moved our ad platform from a self-hosted application to a hosted solution. The primary
+			concerns were ease of configuration and reporting.</li>
+			<li>Saw the site through a complete redesign, as well as a major version upgrade to the Zend Framework.</li>
+			<li>Instituted the use of Trac as our ticketing system so that requests and bugs weren't lost
+			through other forms of communication, and to better enforce accountability. Milestones were also
+			used to manage client expectations and to manage our release cycle.</li>
+			<li>Wrote numerous integrations with our CMS back-end using RSS as a data layer.</li>
+			</ul>
+			</div>
+			
+			<div class="jobdetails">
+			<span class=" job_meta">August 2007–October 2007 </span>
+			<h4>Intern Engineer</h4>
+			 
+			</div>
+			<p class="roledesc " id="roledesc-da-intern">
+			Delivered data entry web application by writing administrative front-end and user work-flow.
+			Developed integrations with our existing platforms.</p>
+			</div>
+			</div>
+			
+			<div class="jobitem">
+			<a name="gerpok"></a>
+			 <span class=" job_meta">San Francisco, CA</span>
+			<h3>Gerpok.com</h3>
+			
+			<div class="roles">
+			<div class="jobdetails">
+			<span class=" job_meta">June 2006–Present</span> 
+			<h4>Lead Plug-in Developer</h4>
+			</div>
+			
+			<p class="roledesc " id="roledesc-gerpok">
+			Designed and built the client side libgerpok library which communicates users' listening
+			habits to the Gerpok servers. The library took advantage of cURL, Boost, and  
+			The first media played integration written was for Winamp.
+			Gerpok.com is a service which generates "now playing" images and
+			aggregates various statistics on song play information.<br />
+			I am currently contributing to a site-rewrite in preparation for 
+			licensing under the GPLv3.</p>
+			</div>
+			</div>
+			
+			
+			<div class="jobitem">
+			<a name="techstore"></a>
+			<span class=" job_meta">San Francisco, CA</span>
+			<h3>UCSF Technology Store</h3>
+			
+			<div class="roles">
+			<div class="jobdetails">
+			<span class=" job_meta">August 2006–August 2007</span>
+			<h4>Sales Assistant</h4>
+			</div>
+			
+			<p class="roledesc " id="roledesc-ucsf">
+			I listened closely to our patrons to assist them in deciding which products would best suit their needs. 
+			I handled customer questions about products and orders, managed
+			inventory, and processed sales and orders.</p>
+			</div>
+			</div>
+	
+		</div>
+		
+		<div class="noprint item">
+		<h2>Projects</h2>
+		
+		<ul>
+		
+		<li>Interested in and have contributed to Free and Open Source projects.</li>
+		
+		<li><a href="portfolio.html">Program portfolio.</a></li>
+		</ul>
+		
+		Contact me for references.
+		</div>
+		
+		<p class="noprint">
+			<a href="http://validator.w3.org/check?uri=referer"><img
+				src="http://www.w3.org/Icons/valid-xhtml10"
+				alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+			</a>
+		</p>
+		<!-- 
+		<p class="noprint">
+		  <a href="http://validator.w3.org/check?uri=referer"><img
+		      src="http://www.w3.org/Icons/valid-xhtml10-blue"
+		      alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+		</p>
+		 -->
+	</div>
 </div>
-</div>
-
-<div id="experience">
-<a name="w_exp"></a>
-<h2>Work Experience</h2>
-
-<div class="jobitem">
-<a name="da"></a>
-
-<div class="job_meta">San Francisco, CA</div>
-<h3>SeenON.com, Delivery Agent, Inc.</h3>
-
-<div class="roles">
-<div class="jobdetails">
-<span class=" job_meta">October 2007–Present</span> 
-<h4>Junior Engineer</h4>
-</div>
-<div class="roledesc " id="roledesc-da">
-<p>
-As the sole engineer for SeenON.com, a content-oriented web-site with 3.5 million page-views a month, 
-I was responsible for everything from requirements gathering to release management.
-</p>
-<!-- <li>I designed a robust and flexible architecture for 
-modules based off of requirements from our marketing team.</li> -->
-<ul>
-<li>Delivered a flexible product recommendation engine, which allows the production staff to 
-decide which products are displayed based off of arbitrary criteria.</li>
-<li>Deployed Multi-User Wordpress to be used as the company's blogging platform. Successfully 
-launched the <a href="http://projectrunway.blog.seenon.com">Project Runway Blog</a>, 
-and merged the existing SeenON! blog from Movable Type.</li>
-<li>Overhauled our release process so reduce our chance of promoting buggy code, and to mitigate risk by 
-ensuring we knew what version of the site was live at any given date.</li>
-<li>Moved our ad platform from a self-hosted application to a hosted solution. The primary
-concerns were ease of configuration and reporting.</li>
-<li>Saw the site through a complete redesign, as well as a major version upgrade to the Zend Framework.</li>
-<li>Instituted the use of Trac as our ticketing system so that requests and bugs weren't lost
-through other forms of communication, and to better enforce accountability. Milestones were also
-used to manage client expectations and to manage our release cycle.</li>
-<li>Wrote numerous integrations with our CMS back-end using RSS as a data layer.</li>
-</ul>
-</div>
-
-<div class="jobdetails">
-<span class=" job_meta">August 2007–October 2007 </span>
-<h4>Intern Engineer</h4>
- 
-</div>
-<p class="roledesc " id="roledesc-da-intern">
-Delivered data entry web application by writing administrative front-end and user work-flow.
-Developed integrations with our existing platforms.</p>
-</div>
-</div>
-
-<div class="jobitem">
-<a name="gerpok"></a>
- <span class=" job_meta">San Francisco, CA</span>
-<h3>Gerpok.com</h3>
-
-<div class="roles">
-<div class="jobdetails">
-<span class=" job_meta">June 2006–Present</span> 
-<h4>Lead Plug-in Developer</h4>
-</div>
-
-<p class="roledesc " id="roledesc-gerpok">
-Designed and built the client side libgerpok library which communicates users' listening
-habits to the Gerpok servers. The library took advantage of cURL, Boost, and  
-The first media played integration written was for Winamp.
-Gerpok.com is a service which generates "now playing" images and
-aggregates various statistics on song play information.<br />
-I am currently contributing to a site-rewrite in preparation for 
-licensing under the GPLv3.</p>
-</div>
-</div>
-
-
-<div class="jobitem">
-<a name="techstore"></a>
-<span class=" job_meta">San Francisco, CA</span>
-<h3>UCSF Technology Store</h3>
-
-<div class="roles">
-<div class="jobdetails">
-<span class=" job_meta">August 2006–August 2007</span>
-<h4>Sales Assistant</h4>
-</div>
-
-<p class="roledesc " id="roledesc-ucsf">
-I listened closely to our patrons to assist them in deciding which products would best suit their needs. 
-I handled customer questions about products and orders, managed
-inventory, and processed sales and orders.</p>
-</div>
-</div>
-
-<!-- 
-<div class="jobitem">
-<a name="spectrum"></a>
-<span class=" job_meta">San Francisco, CA</span>
-<h3>Spectrum Computers</h3>
-
-<div class="jobdetails">
-<div class="roles">
-<span class="job_meta">November 2004–January 2005</span> 
-<h4>Intern Computer Technician</h4>
-</div>
- 
-<p class="roledesc " id="roledesc-spectrum">
-Sold computers and computer parts while helping customers distinguish between 
-what they wanted and what they needed. 
-Diagnosed and repaired software and hardware problems.</p>
-</div>
-</div>
-
-<div class="jobitem">
-<a name="redwhite"></a>
-<span class=" job_meta">San Francisco, CA</span>
-<h3>Red and White Fleet</h3>
-
-<div class="jobdetails">
-<div class="roles">
-<span class=" job_meta">Summer–Fall 2004</span> 
-<h4>Contracted Web Developer</h4>
-</div>
-
-<p class="roledesc " id="roledesc-redwhite">
-Created and maintained an e-commerce web-site which
-managed sales for a cruise ticketing system. Although the site's content was static, 
-the volatile nature of ticket prices called for an intuitive, 
-secure administrative front-end which allowed the company's in-house 
-team to easily manage pricing at their discretion.</p>
+<div id="footer">
 </div>
 </div>
 
-
-<div class="jobitem">
-<a name="atman"></a>
-<span class=" job_meta">San Francisco, CA</span>
-<h3>ATMan PCs</h3>
-
-<div class="jobdetails">
-<div class="roles">
-<span class=" job_meta">October–December 2001</span> 
-<h4>Intern Computer Technician</h4>
-</div>
- 
-<p class="roledesc " id="roledesc-atman">
-At my first computer related job I learned the fundamentals of computer
-repair, cash register operation, and customer documentation.</p>
-</div>
-</div>
--->
-</div>
-
-<div class="noprint">
-<h2>Projects</h2>
-
-<ul>
-
-<li>Interested in and have contributed to Free and Open Source projects.</li>
-
-<li><a href="portfolio.html">Program portfolio.</a></li>
-</ul>
-
-Contact me for references.
-</div>
-
-<p>
-	<a href="http://validator.w3.org/check?uri=referer"><img
-		src="http://www.w3.org/Icons/valid-xhtml10"
-		alt="Valid XHTML 1.0 Strict" height="31" width="88" />
-	</a>
-</p>
-<!-- 
-<p class="noprint">
-  <a href="http://validator.w3.org/check?uri=referer"><img
-      src="http://www.w3.org/Icons/valid-xhtml10-blue"
-      alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
-</p>
- -->
-</div> <!-- <div class="content"> -->
-
-</body>
-</html>
-
+</body></html>
