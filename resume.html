@@ -21,14 +21,16 @@
 
 
 <script type="text/javascript">
+//<!--
 window.addEvent('domready', function() {
 	var skypeJS = Asset.javascript(
 		'http://download.skype.com/share/skypebuttons/js/skypeCheck.js');
 	});
+//-->
 </script> 
 
 <link rel="stylesheet" type="text/css" href="/styles/layout.css" 
-	 media="screen" />
+	media="screen" />
 <link rel="stylesheet" type="text/css" href="/styles/tripoli/tripoli.css" 
 	media="all" /> 
 <!--[if IE]><link rel="stylesheet" type="text/css" href="./styles/tripoli/tripoli.ie.css" media="all" /><![endif]--> 
@@ -80,100 +82,127 @@ media="all" /> -->
 		<li>Library experience: Zend Framework (PHP), curl, Boost (C++), Loki (C++), 
 		Script.aculo.us (Javascript), Mootools (Javascript)</li>
 		</ul>
-		</div>
+		</div> <!-- item -->
 		
 		<div class="item">
-			<h2>Work Experience</h2>
-			
-			<div class="jobitem">
-			<a name="da"></a>
-			
-			<div class="job_meta">San Francisco, CA</div>
-			<h3>SeenON.com, Delivery Agent, Inc.</h3>
-			
-			<div class="roles">
-			<div class="jobdetails">
-				<span class=" job_meta">October 2007–Present</span> 
-				<h4>Junior Engineer</h4>
-			</div>
-			<div class="roledesc " id="roledesc-da">
-			<p>
-			As the sole engineer for SeenON.com, a content-oriented web-site with 3.5 million page-views a month, 
-			I was responsible for everything from requirements gathering to release management.
-			</p>
-			<!-- <li>I designed a robust and flexible architecture for 
-			modules based off of requirements from our marketing team.</li> -->
-			<ul>
-			<li>Delivered a flexible product recommendation engine, which allows the production staff to 
-			decide which products are displayed based off of arbitrary criteria.</li>
-			<li>Deployed Multi-User Wordpress to be used as the company's blogging platform. Successfully 
-			launched the <a href="http://projectrunway.blog.seenon.com">Project Runway Blog</a>, 
-			and merged the existing SeenON! blog from Movable Type.</li>
-			<li>Overhauled our release process so reduce our chance of promoting buggy code, and to mitigate risk by 
-			ensuring we knew what version of the site was live at any given date.</li>
-			<li>Moved our ad platform from a self-hosted application to a hosted solution. The primary
-			concerns were ease of configuration and reporting.</li>
-			<li>Saw the site through a complete redesign, as well as a major version upgrade to the Zend Framework.</li>
-			<li>Instituted the use of Trac as our ticketing system so that requests and bugs weren't lost
-			through other forms of communication, and to better enforce accountability. Milestones were also
-			used to manage client expectations and to manage our release cycle.</li>
-			<li>Wrote numerous integrations with our CMS back-end using RSS as a data layer.</li>
-			</ul>
-			</div>
-			
-			<div class="jobdetails">
-			<span class=" job_meta">August 2007–October 2007 </span>
-			<h4>Intern Engineer</h4>
-			 
-			</div>
-			<p class="roledesc " id="roledesc-da-intern">
-			Delivered data entry web application by writing administrative front-end and user work-flow.
-			Developed integrations with our existing platforms.</p>
-			</div>
-			</div>
-			
-			<div class="jobitem">
-			<a name="gerpok"></a>
-			 <span class=" job_meta">San Francisco, CA</span>
-			<h3>Gerpok.com</h3>
-			
-			<div class="roles">
-			<div class="jobdetails">
-			<span class=" job_meta">June 2006–Present</span> 
-			<h4>Lead Plug-in Developer</h4>
-			</div>
-			
-			<p class="roledesc " id="roledesc-gerpok">
-			Designed and built the client side libgerpok library which communicates users' listening
-			habits to the Gerpok servers. The library took advantage of cURL, Boost, and  
-			The first media played integration written was for Winamp.
-			Gerpok.com is a service which generates "now playing" images and
-			aggregates various statistics on song play information.<br />
-			I am currently contributing to a site-rewrite in preparation for 
-			licensing under the GPLv3.</p>
-			</div>
-			</div>
-			
-			
-			<div class="jobitem">
-			<a name="techstore"></a>
-			<span class=" job_meta">San Francisco, CA</span>
-			<h3>UCSF Technology Store</h3>
-			
-			<div class="roles">
-			<div class="jobdetails">
-			<span class=" job_meta">August 2006–August 2007</span>
-			<h4>Sales Assistant</h4>
-			</div>
-			
-			<p class="roledesc " id="roledesc-ucsf">
-			I listened closely to our patrons to assist them in deciding which products would best suit their needs. 
-			I handled customer questions about products and orders, managed
-			inventory, and processed sales and orders.</p>
-			</div>
-			</div>
-	
+		<h2>Work Experience</h2>
+		
+		<div class="jobitem">
+		<a name="da"></a>
+		
+		<div class="job_meta">San Francisco, CA</div>
+		<h3>SeenON.com, Delivery Agent, Inc.</h3>
+		
+		<div class="roles">
+		<div class="jobdetails">
+		<span class=" job_meta">October 2007–Present</span> 
+		<h4>Junior Engineer</h4>
+		</div> <!-- jobdetails -->
+		<div class="roledesc" id="roledesc-da">
+		<p class="x">
+			As the sole engineer for SeenON.com, a content-oriented web-site with 3.5 million 
+			page-views a month, [...]
+			Was responsible for everything from requirements gathering to release management.
+		</p>
+		<!-- <li>Designed a robust and flexible architecture for 
+		modules based off of requirements from our marketing team.</li> -->
+		<ul>
+		<li>Delivered a flexible product recommendation engine, which allows the 
+			production staff to decide which products are displayed based off 
+			of arbitrary criteria.</li>
+		<li>Deployed Multi-User Wordpress to be used as the company's blogging platform. 
+			Successfully launched the official <a rel="nofollow" target="_none" href="http://projectrunway.blog.seenon.com">
+			Project Runway Blog</a>, and merged the existing SeenON! blog 
+			from Movable Type.</li>
+		<li>Overhauled our release process so reduce our chance of promoting buggy code, 
+			and to mitigate risk by ensuring we knew what version of the site was live at 
+			any given date.</li>
+		<li>Moved our ad platform from a self-hosted application to a hosted solution. 
+			The primary concerns were ease of configuration and reporting.</li>
+		<li>Saw the site through a complete redesign, as well as a major version upgrade 
+			to the Zend Framework.</li>
+		<li>Instituted the use of Trac as our ticketing system so that 
+			requests and bugs weren't lost through other forms of communication, 
+			and to better enforce accountability. Milestones were also used to 
+			manage client expectations and to manage our release cycle.</li>
+		<li>Wrote numerous integrations with our CMS back-end using RSS as a data layer.</li>
+		</ul>
+		</div> <!-- roledesc -->
+		
+		<div class="jobdetails">
+		<span class=" job_meta">August 2007–October 2007 </span>
+		<h4>Intern Engineer</h4> 
 		</div>
+		<div class="roledesc " id="roledesc-da-intern">
+		<ul>
+		<li>
+			Delivered data entry web application by writing administrative 
+			front-end and user work-flow.
+		</li> 
+		<li>
+			Developed integrations with our existing platforms.
+		</li>
+		</ul>
+		</div> <!-- roledesc -->
+		</div> <!-- jobdetails -->
+		</div> <!-- roles -->
+		
+		
+		<div class="jobitem">
+		<a name="gerpok"></a>
+		<span class=" job_meta">San Francisco, CA</span>
+		<h3>Gerpok.com</h3>
+		
+		<div class="roles">
+		<div class="jobdetails">
+		<span class=" job_meta">June 2006–Present</span> 
+		<h4>Lead Plug-in Developer</h4>
+		</div> <!-- jobdetails -->
+		
+		<div class="roledesc " id="roledesc-gerpok">
+		<p>
+			Gerpok.com is a service which generates "now playing" images and
+			aggregates various statistics on song play information.
+		</p>
+		<ul>
+		<li>
+			Designed and built the client side libgerpok library which communicates users' 
+			listening habits to the Gerpok servers. The library leveraged 
+			cURL, Boost, and The first media played integration written was for Winamp.
+		</li>
+		<li>
+			Am currently contributing to a site-rewrite to reduce maintenance  
+			costs and server load.
+		</li>
+		</ul>
+		</div> <!-- roledesc -->
+		</div> <!-- roles -->
+		</div> <!-- jobitem -->
+		
+		
+		<div class="jobitem">
+		<a name="techstore"></a>
+		<span class=" job_meta">San Francisco, CA</span>
+		<h3>UCSF Technology Store</h3>
+		
+		<div class="roles">
+		<div class="jobdetails">
+		<span class=" job_meta">August 2006–August 2007</span>
+		<h4>Sales Assistant</h4>
+		</div> <!-- jobdetails -->
+		
+		<div  class="roledesc " id="roledesc-ucsf">
+		<ul>
+		<li>Listened closely to our patrons to assist them in deciding which 
+		products would best suit their needs.</li> 
+		<li>Handled customer questions about products and orders, managed
+		inventory, and processed sales and orders.</li>
+		</ul>
+		</div> <!-- roledesc -->
+		</div> <!-- roles -->
+		</div> <!-- jobitem -->
+
+		</div> <!-- item -->
 		
 		<div class="noprint item">
 		<h2>Projects</h2>
@@ -184,10 +213,13 @@ media="all" /> -->
 		
 		<li><a href="portfolio.html">Program portfolio.</a></li>
 		</ul>
-		
-		Contact me for references.
-		</div>
-		
+		</div> <!-- item/noprint -->
+	</div>
+</div>
+<div id="footer">
+		<p class="alt center">
+			References available upon request
+		</p>
 		<p class="noprint">
 			<a href="http://validator.w3.org/check?uri=referer"><img
 				src="http://www.w3.org/Icons/valid-xhtml10"
@@ -201,9 +233,6 @@ media="all" /> -->
 		      alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
 		</p>
 		 -->
-	</div>
-</div>
-<div id="footer">
 </div>
 </div>
 

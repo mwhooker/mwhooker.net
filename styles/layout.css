@@ -6,12 +6,8 @@ body {
     width:100%;
     min-width:600px;    /* Minimum width of layout - remove line if not required */
 						/* The min-width property does not work in old versions of Internet Explorer */
-	
 }
 
-img {
-	margin:10px 0 5px;
-}
 /* Header styles */
 #header {
     clear:both;
@@ -46,7 +42,8 @@ img {
     clear:both;
     float:left;
     width:100%;
-	border-top:1px solid #000;
+    /*margin-top:5px;
+	border-top:1px solid #C0C0C0;*/
 }
 #footer p {
     padding:10px;

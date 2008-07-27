@@ -9,7 +9,7 @@
 
 body { /*font-family: Georgia, "Times New Roman", Times, serif;*/
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: .5em;
+		font-size:12px;
 }
 
 a {
@@ -35,4 +35,12 @@ a:hover {
 
 .small {
 	font-size: .8em;
+}
+
+.center {
+	text-align: center;
+}
+
+img {
+	margin:10px 0 5px;
 }
