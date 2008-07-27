@@ -25,7 +25,14 @@
 window.addEvent('domready', function() {
 	var skypeJS = Asset.javascript(
 		'http://download.skype.com/share/skypebuttons/js/skypeCheck.js');
-	});
+	}
+	
+	//correct email
+	
+	//make links with rel="external" open in a new window.
+	var anchors = $$("a");
+	
+	);
 //-->
 </script> 
 
@@ -56,7 +63,9 @@ media="all" /> -->
 	<span class="title_info">C. <a href="skype:+14157949565?call" onclick="return skypeCheck();">
 	(415) 794.9565</a><img class="noprint" alt="Call me with Skype" src="img/SkypeBlue_16x16.png" /></span>
 	<span class="title_info">F. (443) 308.2416</span>a
-	<span class="title_info">E. <a href="mailto:mwhooker@gmail.com">mwhooker@gmail.com</a></span>
+	<span class="title_info">E. 
+		<a id="email" href="mailto:email-mwhooker&#64;gmail&#46;com">
+		mwhooker&#64;<span style="display:none">null</span>gmail&#46;com</a></span>
 	</span>
 	
 	<br />
@@ -67,22 +76,35 @@ media="all" /> -->
 			
 		<div class="item">
 		<h2>Objective</h2>
-		<p>To find elegant solutions to complex problems.</p>
+		<p>Software engineering position where responsibility, initiative,
+		and an absolute need to find elegant solutions to complex problems is valued.</p>
 		</div>
 		
 		<div class="item">
 		<h2>Relevant Skills</h2>
 		<ul>
-		<li>1 year of professional, and 7 years of amateur level programming experience.</li>
-		<li>3 years of Linux user experience. Limited familiarity with server administration.</li>
+		<li>One year of professional, and seven years of amateur level programming experience.</li>
+		<li>Three years of Linux user experience. Limited familiarity with server administration.</li>
 		<li>Web Development experience: PHP, Ruby, HTML, CSS, and SQL.</li>
 		<li>Tool experience: Eclipse, MS Visual Studio, SSH, SVN, git,
-		Trac, phpdoc, and phing</li>
-		
+		Trac, Continuous Intergration with Bitten, phpdoc, ant, and POSIX regular expressions.</li>
 		<li>Library experience: Zend Framework (PHP), curl, Boost (C++), Loki (C++), 
 		Script.aculo.us (Javascript), Mootools (Javascript)</li>
 		</ul>
 		</div> <!-- item -->
+		
+		<div class="item">
+		<h2>Summary</h2>
+		<ul>
+		<li>Creative, curious, and versatile engineer with a personal passion 
+			for programming and technology.</li>
+		<li>Possesses strong grasp of object oriented design.</li>
+		<!-- <li>Experienced working in a team and alone, in a small and large department,
+			and with designers, engineers, and marketers</li>-->
+		<li>Seeking challenging and interesting software position that offers the
+			chance to grow professionally.</li> 
+		</ul>
+		</div>
 		
 		<div class="item">
 		<h2>Work Experience</h2>
@@ -99,10 +121,11 @@ media="all" /> -->
 		<h4>Junior Engineer</h4>
 		</div> <!-- jobdetails -->
 		<div class="roledesc" id="roledesc-da">
-		<p class="x">
-			As the sole engineer for SeenON.com, a content-oriented web-site with 3.5 million 
-			page-views a month, [...]
-			Was responsible for everything from requirements gathering to release management.
+		<p>
+			Sole engineer for <a rel="nofollow external" href="http://www.seenon.com">
+			SeenON.com</a>, a content-oriented web-site with 3.5 million, page-views a month.
+			Responsible for everything from requirements gathering to release management,
+			from feature design to product deployment.
 		</p>
 		<!-- <li>Designed a robust and flexible architecture for 
 		modules based off of requirements from our marketing team.</li> -->
@@ -110,14 +133,17 @@ media="all" /> -->
 		<li>Delivered a flexible product recommendation engine, which allows the 
 			production staff to decide which products are displayed based off 
 			of arbitrary criteria.</li>
-		<li>Deployed Multi-User Wordpress to be used as the company's blogging platform. 
-			Successfully launched the official <a rel="nofollow" target="_none" href="http://projectrunway.blog.seenon.com">
-			Project Runway Blog</a>, and merged the existing SeenON! blog 
+		<li>Deployed Multi-User Wordpress as company's blogging platform, to be used
+			by partners like NBC Universal and the Weinstein Company.</li> 
+		<li>Successfully launched the officials
+			<a rel="nofollow external" href="http://projectrunway.blog.seenon.com">
+			Project Runway blog</a>, and migrated the existing SeenON! blog 
 			from Movable Type.</li>
-		<li>Overhauled our release process so reduce our chance of promoting buggy code, 
-			and to mitigate risk by ensuring we knew what version of the site was live at 
-			any given date.</li>
-		<li>Moved our ad platform from a self-hosted application to a hosted solution. 
+		<li>Built deploy script for blog platform to reduce developer interaction
+			and minimize the chance of mistakes.</li>
+		<li>Overhauled release process to reduce chance of promoting buggy code, 
+			and to mitigate risk by ensuring live version of application was known at all time.</li>
+		<li>Moved our ad platform from a self-hosted application to third party solution. 
 			The primary concerns were ease of configuration and reporting.</li>
 		<li>Saw the site through a complete redesign, as well as a major version upgrade 
 			to the Zend Framework.</li>
@@ -193,8 +219,9 @@ media="all" /> -->
 		
 		<div  class="roledesc " id="roledesc-ucsf">
 		<ul>
-		<li>Listened closely to our patrons to assist them in deciding which 
+		<li>Listened closely to patrons to assist them in deciding which 
 		products would best suit their needs.</li> 
+		<li>Asked targeted questions to discover needs rather than wants.</li>
 		<li>Handled customer questions about products and orders, managed
 		inventory, and processed sales and orders.</li>
 		</ul>
@@ -203,6 +230,13 @@ media="all" /> -->
 		</div> <!-- jobitem -->
 
 		</div> <!-- item -->
+		
+		<div class="item">
+		<h2>Education</h2>
+		<ul>
+		<li></li>
+		</ul>
+		</div>
 		
 		<div class="noprint item">
 		<h2>Projects</h2>
@@ -221,7 +255,8 @@ media="all" /> -->
 			References available upon request
 		</p>
 		<p class="noprint">
-			<a href="http://validator.w3.org/check?uri=referer"><img
+			<a rel="external"
+				href="http://validator.w3.org/check?uri=referer"><img
 				src="http://www.w3.org/Icons/valid-xhtml10"
 				alt="Valid XHTML 1.0 Strict" height="31" width="88" />
 			</a>

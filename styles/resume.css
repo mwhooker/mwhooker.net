@@ -82,3 +82,7 @@ span.title_info {
 .roledesc {
 	margin: 0 0 10px 0;
 }
+
+span.email {
+	unicode-bidi:bidi-override; direction: rtl;  
+{
