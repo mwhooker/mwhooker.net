@@ -1,10 +1,4 @@
-/*#title h1 {
-	font-size: 2em;
-}
-#title .subtitle {
-	font-size:0.8em;
-}
-*/
+
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	margin-left:1.2em;
@@ -17,15 +11,13 @@ body {
 #header {
 	background-color:#ffffff;
 }
+#footer {
+	background-color:#ffffff;
+}
 
 .noprint {
 	display:none;
 }
-
-.roledesc {
-	display:block;
-}
-
 
 a {
 	text-decoration:none;
@@ -42,7 +34,6 @@ a:link {
 	text-decoration:none;
 }
 
-a:active {
-	
+a:active {	
 	text-decoration:none;
 }
