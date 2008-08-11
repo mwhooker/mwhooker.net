@@ -5,3 +5,4 @@ fix portfolio
 make a good looking home page
 write one post to blog
 write some sort of deploy script which auto generates text files, pdf, and .doc/.xml
+figure out what to do about sitemap and robots vis-a-vis auto generation and robot policy.
