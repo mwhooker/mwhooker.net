@@ -1,0 +1,12 @@
+.centered {
+	margin-top: 10%;
+}
+
+.prettybox {
+	height: 400px;
+	width: 400px;
+	background-color: #CAE1FF;
+	border: solid #BFCC8D 5px;
+}
+
+
