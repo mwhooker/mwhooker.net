@@ -15,7 +15,7 @@
 		contract, contact,
 		hacker, rockstar" />
 
-<title>R&eacute;sum&eacute; – Matthew Hooker</title>
+<title>Matthew Hooker</title>
 
 <script src="scripts/mootools-1.2-dom.js" type="text/javascript">
 </script>
@@ -26,24 +26,8 @@
 //<!--
 
 window.addEvent('domready', function() {
-	var skypeJS = Asset.javascript(
-		'http://download.skype.com/share/skypebuttons/js/skypeCheck.js');
-	
-	
-	//correct email
-	var e_address = 'mailto:mwhooker' + '+resume@gmail.com';
-	$('myemail').setProperty('href',e_address);
-	
 	//make links with rel="external" open in a new window.
 	createExternalLinks();
-	
-	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	var pageTracker = _gat._getTracker("UA-5246911-2");
-	pageTracker._trackPageview('/resume');
-
-
-	
 	});
 //-->
 </script> 
@@ -62,7 +46,14 @@ media="all" /> -->
 <link rel="stylesheet" type="text/css" href="/styles/print.css"
 	media="print" />
 
-
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-5246911-1");
+	pageTracker._trackPageview();
+</script>
 </head><body>
 <div class="content">
 <div id="header">
@@ -74,7 +65,7 @@ media="all" /> -->
 	<div class="centered">
 	<div class="prettybox">
 	<p>Sorry folks, nothing to see here yet. Why don't you check out my
-	blog or my resume?</p>
+	<a href="http://blog.mwhooker.com">blog</a> or my <a href="/resume.html">resume</a>?</p>
 	</div></div>
 </div>
 <div id="footer">

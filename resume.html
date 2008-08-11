@@ -39,13 +39,6 @@ window.addEvent('domready', function() {
 	//make links with rel="external" open in a new window.
 	createExternalLinks();
 	
-	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	var pageTracker = _gat._getTracker("UA-5246911-2");
-	pageTracker._trackPageview('/resume');
-
-
-	
 	});
 //-->
 </script> 
@@ -64,7 +57,14 @@ media="all" /> -->
 <link rel="stylesheet" type="text/css" href="/styles/print.css"
 	media="print" />
 
-
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-5246911-1");
+	pageTracker._trackPageview(resume);
+</script>
 </head><body>
 <div class="content">
 <div id="header">
@@ -141,7 +141,7 @@ media="all" /> -->
 		<div class="roledesc" id="roledesc-da">
 		<p>
 			Sole engineer for <a rel="nofollow external" href="http://www.seenon.com">
-			SeenON.com</a>, a content-oriented web-site with 3.5 million, page-views a month.
+			SeenON.com</a>, a content-oriented web-site with 4.5 million page-views a month.
 			Responsible for everything from requirements gathering to release management,
 			from feature design to product deployment.
 		</p>
