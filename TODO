@@ -1,0 +1,7 @@
+fix portfolio
+	pretty up
+	update
+	make sure programs are there.
+make a good looking home page
+write one post to blog
+write some sort of deploy script which auto generates text files, pdf, and .doc/.xml
