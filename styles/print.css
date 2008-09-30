@@ -1,3 +1,10 @@
+h1 {
+	font-size:36px;
+}
+
+#title .subtitle {
+    font-size:14px;
+}
 
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -23,6 +30,11 @@ a {
 	text-decoration:none;
 	font-size: 1em;
 }
+
+.job_meta {
+    color: #7F7E79;
+}
+
 
 a:visited {
 	color: #000000;
