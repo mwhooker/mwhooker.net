@@ -1,9 +1,9 @@
-h1 {
-	font-size:36px;
+#title h1 {
+	font-size:20px;
 }
 
 #title .subtitle {
-    font-size:14px;
+    font-size:10px;
 }
 
 body {
@@ -32,7 +32,7 @@ a {
 }
 
 .job_meta {
-    color: #7F7E79;
+    color: #7A8B8B;
 }
 
 

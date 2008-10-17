@@ -1,0 +1,6 @@
+RedirectMatch 403 /\..*$
+
+##<Directory /export/mhooker/www/mwhooker.net/.git/ >
+##	Order Deny,Allow
+##	Deny from All
+##</Directory>
