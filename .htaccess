@@ -1,5 +1,7 @@
 RedirectMatch 403 /\..*$
 
+DirectoryIndex resume.html
+
 ##<Directory /export/mhooker/www/mwhooker.net/.git/ >
 ##	Order Deny,Allow
 ##	Deny from All
