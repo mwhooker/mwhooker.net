@@ -54,6 +54,10 @@ span.title_info {
 	margin: 0px;
 	padding: 0px;
 }
+.item ul ul,.jobitem ul ul {
+	margin-left: 10px;
+	padding-left: 10px;
+}
 
 .item,.jobitem {
 	margin: 0px 0px 1.5em 0px;
