@@ -118,10 +118,10 @@ media="all" /> -->
 
 		<div class="jobitem">
 		<a name="CBSi"></a>
-		
+
 		<div class="job_meta">San Francisco, CA</div>
 		<h3>TV.com, CBS Interactive</h3>
-		
+
 		<div class="roles">
 		<div class="jobdetails">
 		<span class=" job_meta">November 2008–Present</span> 
@@ -129,46 +129,30 @@ media="all" /> -->
 		</div> <!-- jobdetails -->
 		<div class="roledesc" id="roledesc-cbsi">
 		<p>
-		As the effective team lead at TV.com, I took it upon myself to ensure that the site stayed up. To that end I:
-		</p>
+		<a rel="nofollow external" href="http://www.tv.com">TV.com</a> was in the middle of reorganizing the engineering department when I came on board. This meant that neither my colleagues nor I had any institutional knowledge whatsoever, including any experience with the code base. Inevitibly, this, combined with our tragically inelastic deploy system, caused a high number bugs to make their way to production. As a result, the engineering team spent a sizable portion of their time fixing regressions. As I had experience optimizing development workflow, I immediately took steps to ameliorate the problem, with the end goal of build-based deploys.</p>
+
 		<ul>
-		<li>
-		Moved us from an organic development wrokflow to a system which cut down mistakes and limited risk by
-				<ul>
-				<li>
-				starting with the basic idea of builds.
-				</li>
-				<li>
-				getting product to create a road map which reflects the composition of future builds.
-				</li>
-				<li>
-				using SVN in such a way that we can always go back to previous builds.
-				</li>
-				</ul>
-		</li>
-		<li>
-		worked with Operations to move us from an unknown install of the web tier to a so-called "standard build" which is supported by Central Operations and limits the access to the tier.
-		</li>
-		<li>
-		Worked with Operations to move us from an rsync based deploy system to a build-based deploy system. We can now roll back quickly if for some reason the build doesn't work. This should never happen, however, as a comprehensive QA process is now in place to "bless" a build.
-		</li>
-		</ul>
-		<br />
-		<p>
-		Additionally, I played a key part in SEO and Performance. My role in these areas was to:
-		</p>
-		<ul>
-		<li>
-		build a static feed generator framework to quickly build out an XML and HTML sitemap. This tool was also used to create static media RSS feeds.
-		</li>
-		<li>
-		Work with the SEO team to tune the various levers and nobs which control how Google indexes our site.
-		</li>
-		<li>
-		Created a performance monitoring application using CouchDB and PHP to keep track of an assortment of metrics between web application builds.
-		</li>
+		<li>Moved us from a sprawling, organically created development workflow to a build-based system which cut down mistakes and mitigated the danger of bad code going to production.</li>
+		<li>Introduced the idea of creating SVN build branches and tags.</li>
+		<li>This allowed us to create a record of releases which could then be bundled by a package manager.</li>
 		</ul>
 
+		<br /><p>Unfortunately, due to the way our web tier was configured, these packages were impossible to use. To leverage central operations' infrastructure, we had to configure our front-end tier to a standard environment. A more active role in the operations of TV.com was needed, so I became somewhat of a liason to the operations department. In that capacity I represented engineering in:</p>
+
+		<ul>
+		<li>Affecting the disunion of TV.com from a seperate department's hardware (a result of CNET's aquisition of CBS Interactive).</li>
+		<li>Designing and creating a seperate tier for Memcached.</li>
+		<li>Modifying the TV.com application to be envornment agnostic, vis-a-vis the organization's standard build web server.</li>
+		<li>Configuring the application for use in operations' package management system and deployment platform.</li>
+		</ul>
+
+
+		<br /><p>Additionally, I played a key part in SEO and performance tuning. My role in these areas was to:</p>
+		<ul>
+		<li>Create an XML and HTML sitemap. To achieve this I created an extensible static feed generator which allowed me to quickly build the XML and HTML feed generator applications.</li>
+		<li>Researched SEO strategies and set them as objectives for the front-end team and engineering interns.</li>
+		<li>Created a performance monitoring application using CouchDB and PHP to keep track of an assortment of low-level metrics between web application builds.</li>
+		</ul>
 
 		</div> <!-- roledesc -->
 		</div> <!-- jobdetails -->
