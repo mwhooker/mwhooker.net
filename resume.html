@@ -83,7 +83,7 @@ media="all" /> -->
 			
 		<div class="item">
 		<h2>Objective</h2>
-		<p>Software engineering position where responsibility, initiative,
+		<p>Senior Software engineering position where responsibility, initiative,
 		and an absolute need to find elegant solutions to complex problems are valued.</p>
 		</div>
 		
@@ -94,7 +94,7 @@ media="all" /> -->
 		<li>Web Development experience: PHP, (X)HTML, CSS, SQL, CouchDB, and Javascript.</li>
 		<li>Tool experience: Vim, Eclipse, MS Visual Studio, SSH, SVN, git,
 		Trac, Continuous Integration with Bitten, phpdoc, ant, and PCRE.</li>
-		<li>Language experience: PHP, Bash, C, C++, Ruby, Scala, Erlang, R, Javascript, Java.</li>
+		<li>Language experience: PHP, Bash, C, C++, Python, Ruby, Scala, Erlang, R, Javascript, Java.</li>
 		</ul>
 		</div> <!-- item -->
 		
@@ -132,36 +132,20 @@ media="all" /> -->
 		</div> <!-- jobdetails -->
 		<div class="roledesc" id="roledesc-cbsi">
 		<p>
-		<a rel="nofollow external" href="http://www.tv.com">TV.com</a> was in the middle of reorganizing the engineering department when I came on board. This meant that neither my colleagues nor I had any institutional knowledge whatsoever, including any experience with the code base. Inevitably, this, combined with our tragically inelastic deploy system, caused a high number bugs to make their way to production. As a result, the engineering team spent a sizable portion of their time fixing regressions. As I had experience optimizing development work-flow, I immediately took steps to ameliorate the problem, with the end goal of build-based deploys.</p>
-
+		Improved site's performance and stability.
 		<ul>
-		<li>Moved us from a sprawling, organically created development work-flow to a build-based system which cut down mistakes and mitigated the danger of bad code going to production.</li>
-		<li>Introduced the idea of creating SVN build branches and tags.</li>
-		<li>This allowed us to create a record of releases which could then be bundled by a package manager.</li>
+		<li>Took lead on migrating site application to new production environment, the result of which has been vastly improved site uptime.</li>
+		<li>Moved site application to build-based deploy system.</li>
+		<li>Created performance monitoring application with CouchDB to record and report on code-level metrics.</li>
+		<li>Replaced Danga's original Memcached client with the PECL Memcached client.</li>
 		</ul>
 
-		<br /><p>Unfortunately, due to the way our web tier was configured, these packages were impossible to use. To leverage our operations department's infrastructure, we had to configure our front-end tier to a standard environment. A more active role in the operations of TV.com was needed, so I became somewhat of a liaison to operations. In that capacity I represented engineering in:</p>
-
-		<ul>
-		<li>Affecting the disunion of TV.com from a separate department's hardware (a result of CNET's acquisition of CBS Interactive).</li>
-		<li>Designing and creating a separate tier for Memcached.</li>
-		<li>Modifying the TV.com application to be environment agnostic, vis-a-vis the organization's standard build web server.</li>
-		<li>Configuring the application for use in operations' package management system and deployment platform.</li>
-		</ul>
-
-
-		<br /><p>Additionally, I played a key part in SEO and performance tuning. My role in these areas was to:</p>
-		<ul>
-		<li>Create an XML and HTML site map. To achieve this I created an extensible static feed generator which allowed me to quickly build the XML and HTML feed generator applications.</li>
-		<li>Researched SEO strategies and set them as objectives for the front-end team and engineering interns.</li>
-		<li>Created a performance monitoring application using CouchDB and PHP to keep track of an assortment of low-level metrics between web application builds.</li>
-		<li>Replaced Danga's original Memcached client with Andrei Zmievski's PECL Memcached client.</li>
-		</ul>
-
-		<br /><p>I also developed the following products:</p>
+		<br /><p>Supported the product by developing:</p>
 		<ul>
 		<li>Integration with TiVo, allowing users to record to their TiVo DVR from TV.com.</li>
+		<li>Authentication with Verizon to authorize the streaming of "premium content".</li>
 		<li>A March madness-style bracket voting system for celebrities.</li>
+		<li>A framework for generating XML and HTML site maps.</li>
 		</ul>
 
 		</div> <!-- roledesc -->
