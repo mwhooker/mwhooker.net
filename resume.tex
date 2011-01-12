@@ -1,0 +1,45 @@
+\documentclass[10pt]{article}
+
+%A Few Useful Packages
+\usepackage{url,parskip}            %formatting
+ 
+%Graphics - Colors
+\RequirePackage{color,graphicx}
+ 
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks, urlcolor=linkcolour, linkcolor=linkcolour}
+
+%-------BEGIN DOCUMENT--------
+\begin{document}
+
+\pagestyle{empty} % non-numbered pages
+
+
+%--------------------TITLE-------------
+\par{\centering
+{\Huge Matthew \textsc{Hooker} }
+\bigskip\par}
+
+%Section: Personal Data
+\section{Personal Data}
+\begin{tabular}{rl}
+\textsc{Address:}   & 2108 Hayes St. Apt. 6 San Francisco, CA 94117\\
+\textsc{Phone:} & (415) 794.9565\\
+\textsc{Fax:} & (443) 308.2416\\
+\textsc{email:} & \href{mailto:mwhooker@gmail.com}{mwhooker@gmail.com}\\
+\end{tabular}
+
+
+%Section: Work Experience at the top
+\section{Work Experience}
+\begin{tabular}{r|p{11cm}}
+\emph{Current} & Your job at Your Company, Town \\
+\textsc{Jan 2009} \emph{What your company does} \\
+& \footnotesize{A description of what you do,
+because your job's name can be meaningless to the reader}\\
+\multicolumn{2}{c}{}\ %this clears the space between two jobs
+%some other job here
+\end{tabular}
+\end{document}
