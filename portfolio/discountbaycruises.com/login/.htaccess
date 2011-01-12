@@ -1,6 +1,0 @@
-AuthUserFile /home/u4/sfdbc/html/login/.htpasswd
-AuthName "Protected Area"
-AuthType Basic
-<Limit GET POST>
-require valid-user
-</Limit>
