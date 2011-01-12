@@ -3,17 +3,19 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
 	<meta http-equiv="imagetoolbar" content="false" />
 	<meta http-equiv="Content-Language" content="en" />
 	<!--meta name="ROBOTS" content="NOFOLLOW" /-->
 	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<meta name="description" content="Matthew W. Hooker" />
-	<meta name="keywords" content="Matthew Hooker, resume, engineer, programmer, developer,
+	<meta name="description" content="Home page and Internet nook of Matthew W. Hooker. San Francisco
+	based web engineer and geek." />
+	<meta name="keywords" content="Matt Hooker, Matthew Hooker, resume, engineer, programmer, developer,
 		web, internet, php,	php5, mysql, html, xhtml, javascript, 
 		programming, web programming, web programmer, web developer, web development, software engineer 
 		contract, contact,
 		hacker, rockstar" />
+	<meta name="google-site-verification" content="D280_Hd5VVI2Ty0AXtCEgptegkov2_G9uBUmd5bw-k0" />
 
 <title>Matthew W. Hooker</title>
 
@@ -45,12 +47,13 @@ window.addEvent('domready', function() {
 media="all" /> -->
 <link rel="stylesheet" type="text/css" href="/styles/print.css"
 	media="print" />
+<link rel="alternate" href="http://twitter.com/mwhooker" />
 </head>
 <body>
 <div class="links">
-	<span class="innerlink"><a href="http://blog.mwhooker.com">blog</a></span>
+	<span class="innerlink"><a href="http://blog.mwhooker.com" onclick="mpmetrics.track('blog');">blog</a></span>
 	|
-	<span class="innerlink"><a href="/resume.html">r&eacute;sum&eacute;</a></span>
+	<span class="innerlink"><a href="/resume.html" onclick="mpmetrics.track('resume');">r&eacute;sum&eacute;</a></span>
 </div>
 <div id="footer">
 
@@ -70,5 +73,15 @@ media="all" /> -->
 <script type="text/javascript">
 	var pageTracker = _gat._getTracker("UA-5246911-2");
 	pageTracker._trackPageview();
+</script>
+<script type="text/javascript" src="http://api.mixpanel.com/site_media/js/api/mixpanel.js"></script>
+<script type="text/javascript">
+    try {
+        var mpmetrics = new MixpanelLib("c73dc67239b85aef9a7ab8b56cffed89");
+    } catch(err) {
+        null_fn = function () {};
+        var mpmetrics = { track: null_fn, track_funnel: null_fn, register: null_fn, register_once: null_fn };
+    }
+	mpmetrics.track('loaded');
 </script>
 </body></html>
