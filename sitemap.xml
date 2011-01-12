@@ -4,11 +4,5 @@
   <loc>http://mwhooker.com/resume.html</loc>
   <changefreq>daily</changefreq>
   <priority>1</priority>
-  <loc>http://mwhooker.com/portfolio.html</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
-  <loc>http://mwhooker.com/</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.8</priority>
  </url>
 </urlset>
