@@ -9,7 +9,7 @@ TODO:
 }
 
 
-.item h2 {
+.section h2 {
 	margin-bottom: 0.5em;
 	padding: 0px;
 	border-top: medium outset #000000;
@@ -18,18 +18,18 @@ TODO:
 	font-size: 1.65em;
 }
 
-.item h3 {
+.section h3 {
 	margin: 0.5em 0px 0.65em 0px;
 	font-size: 1.365em;
 }
 
-.jobitem h4 {
+.jobsection h4 {
 	margin: 0.5em 0px .7em 0px;
 	font-style: oblique;
 	font-weight: normal;
 }
 
-.item p {
+.section p {
 	margin: 0 0 0.5em 0;
 	
 }
@@ -50,16 +50,16 @@ span.title_info {
 	margin: 0 0.5em 0 0.5em;
 }
 
-.item ul,.jobitem ul {
+.section ul,.jobsection ul {
 	margin: 0px;
 	padding: 0px;
 }
-.item ul ul,.jobitem ul ul {
+.section ul ul,.jobsection ul ul {
 	margin-left: 10px;
 	padding-left: 10px;
 }
 
-.item,.jobitem {
+.section,.jobsection {
 	margin: 0px 0px 1.5em 0px;
 }
 
@@ -76,7 +76,7 @@ span.title_info {
 	
 }
 
-.jobitem {
+.jobsection {
 	
 }
 
